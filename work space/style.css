@@ -1,0 +1,153 @@
+body{
+    background-color: white;
+    min-height: 100vh;
+}
+
+.heropage{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./images/image-header.jpg);
+    object-fit: contain;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.header{
+    height: 100px;
+    width: 95%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
+
+}
+
+.navigation{
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    
+}
+
+/* .texarea{
+    height: 300px;
+    width: 500px;
+    border: 2px;
+    border-style: solid;
+    
+
+} */
+
+.inner{
+    height: 110px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+}
+
+.holder{
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+
+/* .texarea{
+    width: 500px;
+    height: 100px;
+    border-color: blue;
+    display: flex;
+    
+    justify-content:center;
+    align-items: center;
+    
+
+
+} */
+
+h3{
+    width: 400px;
+    color: white;
+    
+    display: flex;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    font-size: 35px;
+    letter-spacing: 2px;
+    align-items: center;
+    
+
+}
+
+.flex{
+    height: 100vh;
+    background-color:white;
+    width: 100%;
+     display: flex; 
+    flex-wrap:wrap;
+}
+
+.box{
+    width: 50%;
+    height: 400px;
+}
+#box1{
+    background-color:white;
+}
+#box2{
+    background-color:white;
+   
+    
+}
+#box3{
+    background-color: white;
+    
+    
+}
+#box4{
+    background-color: white;
+}
+
+.image-hold{
+    object-fit: cover;
+    height: 400px;
+    width: 100%
+    
+}   
+
+.card{
+    background-color: blue;
+    height: 200px;
+    width: 100%;
+    margin-top: 145px;
+
+}
+.btn{
+    border-radius: 10px;
+    padding: 8px;
+    font-size: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+h1{
+   font-size: 60px;
+   font-weight:lighter; 
+}
+.pragraph{
+    width: 100px;
+    font-size: 10px;
+    font-weight: lighter;
+    padding-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
